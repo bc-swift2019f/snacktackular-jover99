@@ -14,6 +14,7 @@ class Spots {
     var db: Firestore!
     
     init () {
+        // extra comment
         db = Firestore.firestore()
     }
     
